@@ -1,0 +1,56 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CryptoSwift (0.13.0)
+  - PromiseKit (6.5.2):
+    - PromiseKit/CorePromise (= 6.5.2)
+    - PromiseKit/Foundation (= 6.5.2)
+    - PromiseKit/UIKit (= 6.5.2)
+  - PromiseKit/CorePromise (6.5.2)
+  - PromiseKit/Foundation (6.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.2):
+    - PromiseKit/CorePromise
+  - secp256k1.swift (0.1.4)
+  - SipHash (1.2.2)
+  - stellar-ios-mac-sdk (1.5.8)
+  - web3swift (2.0.4):
+    - BigInt (~> 3.1)
+    - CryptoSwift (~> 0.12)
+    - PromiseKit (~> 6.4)
+    - secp256k1.swift
+
+DEPENDENCIES:
+  - stellar-ios-mac-sdk (~> 1.5.6)
+  - web3swift (from `https://github.com/bankex/web3swift.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - CryptoSwift
+    - PromiseKit
+    - secp256k1.swift
+    - SipHash
+    - stellar-ios-mac-sdk
+
+EXTERNAL SOURCES:
+  web3swift:
+    :git: https://github.com/bankex/web3swift.git
+
+CHECKOUT OPTIONS:
+  web3swift:
+    :commit: 99285776d96806f4d1da565b070d8ec88ea4b010
+    :git: https://github.com/bankex/web3swift.git
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CryptoSwift: 16e78bebf567bad1c87b2d58f6547f25b74c31aa
+  PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  stellar-ios-mac-sdk: e330bf3cc9626b10e31bf1ac8169dbb1b3352903
+  web3swift: 6b554da5ec34fe3569dab78a7a2ad3b8ce4a7b61
+
+PODFILE CHECKSUM: db405df666513630f840595074502d8f57d461bd
+
+COCOAPODS: 1.5.3

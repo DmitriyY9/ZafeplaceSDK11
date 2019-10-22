@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  ZafeplaceSDK
+
+  Created by Dmitriy Zhyzhko on 04.05.2018.
+  Copyright © 2018 Z4. All rights reserved.
+*/
+
+"noBiometricSensorHasBeenDetected" = "This device does not have a TouchID sensor.";
+"error" = "Error";
+"ok" = "Ok";
+"unlock_device" = "Unlock device";
+"unlock_faceID" = "Unlock using Face ID";
+"unlock_touchID" = "Unlock using Touch ID";
+"not_specified_appId_and_secret" = "Not specified appid and appsecret";
